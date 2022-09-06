@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All QRCode</title>
+    <link rel="stylesheet" href="/css/partials.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="logo">
+            <div class="logoimg">
+                <img class="qr" src="/images/restau.png"/>
+            </div>
+        </div>
+        <div class="menu">
+            <img class="menu-opener" src="/images/menu.png"/>
+            <nav>
+                <ul>
+                    <li class="{{#menu.index}}active{{/menu.index}}"><a href="/">Pagina Inicial</a></li>
+                    <li class="{{#menu.historia}}active{{/menu.historia}}"><a href="/historia">Nossa História</a></li>
+                    <li class="{{#menu.cardapio}}active{{/menu.cardapio}}"><a href="/cardapio">Cardápio</a></li>
+                    <li class="{{#menu.pedidos}}active{{/menu.pedidos}}"><a href="/pedidos">Pedidos<img class="carrinho" src="/images/carrinho.png"/></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

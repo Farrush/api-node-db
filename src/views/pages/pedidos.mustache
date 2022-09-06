@@ -1,0 +1,58 @@
+{{>partials/header}}
+
+<link rel="stylesheet" type="text/css" href="/css/littlecar.css" />
+
+<body>
+  <main>
+        <section class="banner">
+            <div class="slide">
+        <h2 class="mycar-title">Meu Carrinho</h2>
+        <div class="purchases">
+            <div class="item" data-key="1">
+                <div class="item-image"><img src="/images/bife_parmegiana.jpg"></div>
+                <div class="item-info">
+                    <span class="titulo">Bife à Parmegiana</span>
+                    <button class="order">Remover</button>
+                    <div class="item-value">
+                        <span class="value">R$ 35,25</span>
+                        <div class="quant"><div><button class="button-add">+</button><span>1</span><button class="button-sub">-</button></div></div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" data-key="2">
+                <div class="item-image"><img src="/images/file_fritas.jpg"></div>
+                <div class="item-info">
+                    <span class="titulo">Filé com Fritas</span>
+                    <button class="order">Remover</button>
+                    <div class="item-value">
+                        <span class="value">R$ 34,75</span>
+                        <div class="quant"><div><button class="button-add">+</button><span>1</span><button class="button-sub">-</button></div></div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" data-key="3">
+                <div class="item-image"><img src="/images/carbonara.jpg"></div>
+                <div class="item-info">
+                    <span class="titulo">Macarrão Carbonara</span>
+                    <button class="order">Remover</button>
+                    <div class="item-value">
+                        <span class="value">R$ 31,45</span>
+                        <div class="quant"><div><button class="button-add">+</button><span>2</span><button class="button-sub">-</button></div></div> 
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="total">
+                    <h3>Valor Total:</h3>
+                    <span>R$ 101,45</span>
+            </div>
+            <div class="finalizar">
+            <a href="/pagamento">Pagamento</a>
+                </div>
+        </div>
+    </section>
+    </main>
+
+{{>partials/footer}}
